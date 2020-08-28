@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # cubosEstagio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -77,7 +77,4 @@ Para iniciar o projeto, abra o CMD (prompt de comando), navegue até a pasta "de
 Execute "npm start" e aguarde.    
 No navegador, irá abrir automaticamente a localhost do app.     
 Para visualizar os códigos, abra um editor de texto de sua preferência e abra a pasta onde contem os codigos, que é a "desafio-cubos".
-=======
-# desafioCubos
-Desafio para estagiário front-end
->>>>>>> aa4636a915a6acf60d5a3ab31de77192d1fac67f
+
