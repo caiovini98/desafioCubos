@@ -1,0 +1,13 @@
+.container .movies-header {
+    width: 100%;
+    height: 65px;
+    background-color: #116193;
+    font-size: 30px;
+    color: #00E8E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abel';
+    letter-spacing: 1px;
+}
+

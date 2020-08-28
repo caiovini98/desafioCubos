@@ -1,0 +1,36 @@
+.search-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    border-radius: 25px;
+    width: 900px;
+    height: 45px;
+    max-width: 100%;
+    background-color: #EBEBEB;
+    border: #EBEBEB;
+    font-size: 21px;
+    color: #9DBACB;
+    font-family: 'Abel';
+    padding-left: 8px;
+
+    display: flex;
+    justify-content: center;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 8px;
+    color: #9DBACB;
+    font-family: 'Abel';
+    font-size: 21px;
+}
+
+@media screen and (max-width: 950px) {
+    .input-box {
+        width: 480px;
+    }
+}
+

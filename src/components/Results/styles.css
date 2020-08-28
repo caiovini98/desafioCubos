@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+} 
+
+.link {
+    text-decoration: none;
+}
+
+.resultados {
+    margin: 25px 12px 25px 12px;
+    width: 900px;
+    display: flex;
+}
+
+.resultados img {
+    width: 180px;
+    height: 270px;
+}
+
+.infos-results {
+    background-color: #EBEBEB;
+}
+
+.infos .name {
+    font-family: 'Abel';
+    font-size: 30px;
+    color: #00E8E4;
+    background-color: #116193;
+    padding-left: 20px;
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.infos .name .nota {
+    border: 3px solid #00E8E4;
+    color: #00E8E4;
+    background-color: #116193;
+    border-radius: 50%;
+    padding: 6px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos .name .title {
+    margin-left: 10px;
+}
+
+.infos .date {
+    padding-left: 85px;
+    padding-top: 5px;
+    color: #969696;
+}
+
+.infos .sinopse {
+    padding: 20px;
+    color: #555555;
+    font-size: 15px;
+    font-family: 'Lato';
+}
+
+@media screen and (max-width: 950px) {
+    .infos-results {
+        width: 500px;
+    }
+
+    .container {
+        align-items: center;
+    }
+}
+

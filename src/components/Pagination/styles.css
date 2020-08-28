@@ -1,0 +1,22 @@
+.pagina {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aTag {
+    font-family: "Abel";
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #116193;
+    margin: 5px;
+}
+
+.pagina a:hover {
+    border: 3px solid #00E8E4;
+    color: #00E8E4;
+    background-color: #116193;
+    border-radius: 50%;
+    padding: 6px;
+}
