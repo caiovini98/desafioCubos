@@ -1,3 +1,5 @@
+# cubosEstagio
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +68,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+Desafio realizado para processo seletivo da Cubos.    
+Para iniciar o projeto, abra o CMD (prompt de comando), navegue até a pasta "desafio-cubos".     
+Execute "npm start" e aguarde.    
+No navegador, irá abrir automaticamente a localhost do app.     
+Para visualizar os códigos, abra um editor de texto de sua preferência e abra a pasta onde contem os codigos, que é a "desafio-cubos".

@@ -10,15 +10,13 @@ export default function Pagination({postPerPage, totalPost, pagina}) {
 
     return(
         <nav className="pagina">
-            <ul>
+            <ul> 
             {pageNumbers.map((number) => (
                     
                         <a className="aTag" onClick={() => pagina(number)} href="#" key={number}>
                         {number}
                         </a>
                     
-                    
-                
             ))}
             </ul>
             

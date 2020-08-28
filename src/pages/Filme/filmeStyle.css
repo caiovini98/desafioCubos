@@ -40,6 +40,10 @@
     border-bottom-width: 2px;
 }
 
+.item1-body {
+    background-color: #F2F2F2;
+}
+
 .item1-body .overview {
     margin: 20px;
     padding: 10px;
@@ -71,6 +75,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .item2 {
@@ -84,7 +89,21 @@
 
 .genres {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.generos {
+    border: 1px solid #116193;
+    padding: 6px;
+    border-radius: 20px;
+    margin-right: 8px;
+    background-color: #FFFFFF;
+    color: #4885AA;
+    font-family: "Abel";
+    font-size: 15px;
 }
 
 .vote {
@@ -103,5 +122,10 @@
     .item2-body img {
         width: 150px;
         height: 300px;
+    }
+
+    .genres {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }

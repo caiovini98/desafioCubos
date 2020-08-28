@@ -11,6 +11,7 @@
     margin: 25px 12px 25px 12px;
     width: 900px;
     display: flex;
+    justify-content: center;
 }
 
 .resultados img {
@@ -60,6 +61,10 @@
     color: #555555;
     font-size: 15px;
     font-family: 'Lato';
+}
+
+.generos1 {
+    
 }
 
 @media screen and (max-width: 950px) {

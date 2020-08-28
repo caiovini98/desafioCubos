@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import './filmeStyle.css';
 
 export default function Filme() {
+    const [generos, setGeneros] = useState([]); 
     const [detalhes, setDetalhes] = useState({});
     const {id} = useParams();
     const chaveApi = '207b133b42331a7c0059c768ec068c1b';
@@ -14,8 +15,9 @@ export default function Filme() {
                 await Axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=${chaveApi}`)
                 .then(({data}) => {
                     setDetalhes({...data})
+                    setGeneros(data.genres); 
                 })
-                
+
             } catch (error) {
                 console.log(error);
             }
@@ -62,12 +64,13 @@ export default function Filme() {
                         </div>
                     </section>
                     <section className="genres">
-                   
-                    
-    <div>
-        Generos
-    </div>
-                    
+                        <div>
+                            {generos.map((item, index) => {
+                                return <span key={index}  className="generos">
+                                    {item.name}
+                                </span>
+                            })}
+                        </div>
                         <div className="vote">{detalhes.vote_average}</div>
                     </section>
                 </section>
